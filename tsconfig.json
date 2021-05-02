@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
+  "include": [
+    "node-extensions/**/*.ts",
+    ".eslintrc"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
