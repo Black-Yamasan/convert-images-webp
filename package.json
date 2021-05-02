@@ -23,6 +23,6 @@
     "mkdirp": "1.0.4",
     "sharp": "0.28.1",
     "ts-node": "9.1.1",
-    "typescript": "^4.2.4"
+    "typescript": "4.2.4"
   }
 }
