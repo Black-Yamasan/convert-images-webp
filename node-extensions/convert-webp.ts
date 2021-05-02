@@ -1,5 +1,5 @@
 import fs from 'fs'
-import fsPromise = fs.promises
+const fsPromise = fs.promises
 import glob from 'glob'
 import mkdirp from 'mkdirp'
 import path from 'path'
