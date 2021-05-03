@@ -1,6 +1,6 @@
 {
   "name": "convert-images-webp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "module": "./src/node-extensions/convert-webp.ts",
   "repository": "https://github.com/Black-Yamasan/convert-images-webp.git",

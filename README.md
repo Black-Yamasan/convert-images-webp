@@ -39,8 +39,12 @@ npm run convert-webp
 │   └── convert-webp.ts  -> 変換用スクリプト
 ├── package.json
 ├── src
-│   └── images
-│       └── original     -> 元画像のディレクトリを格納
-│           └── xxx      -> jpg または png画像を入れるディレクトリ。名前は任意。
+│   ├── images
+│   │   └── original     -> 元画像のディレクトリを格納
+│   │       └── xxx      -> jpg または png画像を入れるディレクトリ。名前は任意。
+│   └── scripts
+│       └── index.ts     -> サンプルスクリプト
 └── tsconfig.json
 ```
+
+外部から `import` したい場合は `src/scripts/index.ts` を参照。
