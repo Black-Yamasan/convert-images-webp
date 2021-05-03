@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": [
-    "node-extensions/**/*.ts",
+    "**/*.ts",
     ".eslintrc"
   ],
   "exclude": [
