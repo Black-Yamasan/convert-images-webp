@@ -7,8 +7,8 @@
   "author": "Black-Yamasan",
   "license": "MIT",
   "engines": {
-    "node": "12.x",
-    "npm": "6.x"
+    "node": "16.x",
+    "npm": "8.x"
   },
   "scripts": {
     "convert-webp": "ts-node ./src/scripts/index.ts"
